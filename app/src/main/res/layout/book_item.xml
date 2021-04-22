@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_140sdp" android:layout_height="@dimen/_240sdp"
+    android:background="@color/primary"
+    android:backgroundTint="@color/primary">
+
+    <LinearLayout
+        android:id="@+id/parentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="25"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/border_book"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/iv_book"
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/book_ex"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="vertical"
+                android:weightSum="3.6">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"/>
+
+                    <TextView
+                        android:id="@+id/tvTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.2"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="Kytice"
+                        android:textSize="@dimen/_14sdp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:maxLines="2"
+                        android:gravity="center_vertical"
+                        />
+
+                <TextView
+                    android:id="@+id/tvAuthors"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="K. J. Erben"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@color/white"
+                    android:gravity="center_vertical"/>
+
+                <Button
+                    android:id="@+id/btnDetail"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1.2"
+                    android:layout_height="0dp"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/round_button"
+                    app:backgroundTint="@color/colorAccent"
+                    android:text="Detail"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

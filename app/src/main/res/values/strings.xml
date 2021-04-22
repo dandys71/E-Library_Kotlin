@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">E-Library Kotlin</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_search">Hledat</string>
+
+    <string name="menu_my_library">Moje knihovna</string>
+    <string name="menu_reserved">Rezervované</string>
+    <string name="menu_library">Knihovna</string>
+
+    <string name="reserve">REZERVOVAT</string>
+    <string name="reserved_success">Kniha byla úspěšně rezervována.</string>
+    <string name="reserved_failure_in_reserved">Tuto knihu již máte rezerovanou.</string>
+    <string name="reserved_failure_in_my_library">Tuto knihu již máte ve své knihovně.</string>
+    <string name="cancel_reservation">ZRUŠIT REZERVACI</string>
+    <string name="cancel_reservation_success">Rezervace knihy byla zrušena.</string>
+    <string name="extend">PRODLOUŽIT</string>
+    <string name="extend_success">Vaše výpůjčka byla prodloužena.</string>
+    <string name="one_piece">kus</string>
+    <string name="two_to_four_pieces">kusy</string>
+    <string name="five_and_more_pieces">kusů</string>
+    <string name="one_piece_left">zbývá</string>
+    <string name="two_to_four_pieces_left">zbývají</string>
+    <string name="five_and_more_pieces_left">zbývá</string>
+    <string name="my_library_book_info">Knihu máte vypůjčenou od %s do %s. Níže si můžete prodloužit výpůjčku.</string>
+    <string name="my_library_book_info_can_not_extend">Knihu máte vypůjčenou od %s do %s. Další prodloužení výpůjčky již není možné.</string>
+    <string name="reserved_book_info">Knihu máte rezerovanou od %s do %s. Pokud nestihnete knihu vyzvednout, rezervace propadne.</string>
+    <string name="library_book_info_available">Knihu je možné rezerovat. K vypůjčení %s %d %s z celkového množství %d kusů.</string>
+    <string name="library_book_info_unavailable">Knihu není nyní možné rezerovat, jelikož jsou všechny kusy (%d %s) vypůjčené.</string>
+    <string name="search_hint">Hledat titul či autora…</string>
+    <string name="library_no_result">Vašemu dotazu neodpovídají žádné výsledky.</string>
+    <string name="reserved_no_data">Nemáte rezerované žádné knihy.</string>
+    <string name="my_library_no_data">Nemáte vypůjčenou žádnou knihu.</string>
+</resources>
