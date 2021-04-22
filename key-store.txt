@@ -1,5 +1,0 @@
-Key store path
-Password:ELibraryKotlin2021
-Key:
-Alias: key0
-Password: 2021KotlinELibrary
